@@ -2,8 +2,6 @@ const Sequelize = require('sequelize');
 
 const sequelize = require('../util/database');
 
-//'product' is the model name, you can give it any name you want, when this table is created
-//'product' will be named to products by the Package, Sequelize
 const Product = sequelize.define("product", {
   id: {
     type: Sequelize.INTEGER,
